@@ -13,5 +13,15 @@ async def on_ready():
 @bot.command()
 async def greet(ctx):
     await ctx.send(":smiley: :wave: Hello, there!")
+    
+bot.remove_command('help')
+
+@bot.command()
+async def help(ctx):
+    embed = discord.Embed(title="Testing Bot One Help System", description="Hello, this is a list of all of my commands :D", color=0xeee657)
+    
+    embed.add_field(name="greet", value="This command greets people.", inline=False)
+    
+    await ctx.send(embed=embed)
 
 bot.run('NDY5ODkzMzI1NzgxMDczOTIz.DjUn9Q.OcqLxPx9g6gEMSDzuTJSGJwuh4c')
