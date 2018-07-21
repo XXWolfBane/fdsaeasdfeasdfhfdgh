@@ -16,12 +16,13 @@ async def greet(ctx):
     
 @bot.command()
 async def about(ctx):
-   embed = discord.Embed(title="About me", description="This command shows you info about me!", color=0xeee657)
+    embed = discord.Embed(title="Info about me", description="This is who made me and my libary.", color=0xeee657)
     
-    embed.add_field(name="Author", value="WolfBane#5559" inline=False)
-    embed.add_field(name="discord.py" value="", inline=True)
+    embed.add_field(name="Author", value="WolfBane#5559", inline=False)
+    embed.add_field(name="Libary", value="Discord.py", inline=False)
     
     await ctx.send(embed=embed)
+
     
 bot.remove_command('help')
 
