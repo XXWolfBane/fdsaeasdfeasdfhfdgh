@@ -14,6 +14,14 @@ async def on_ready():
 async def greet(ctx):
     await ctx.send(":smiley: :wave: Hello, there!")
     
+@bot.command()
+async def about(ctx)
+   embed = discord.Embed(title="About me", description="This command shows you info about me!", color=0xeee657)
+    
+    embed.add_field(title="Author", value="WolfBane#5559" inline=False)
+    
+    await ctx.send(embed=embed)
+    
 bot.remove_command('help')
 
 @bot.command()
