@@ -18,7 +18,8 @@ async def greet(ctx):
 async def about(ctx)
    embed = discord.Embed(title="About me", description="This command shows you info about me!", color=0xeee657)
     
-    embed.add_field(title="Author", value="WolfBane#5559" inline=False)
+    embed.add_field(name="Author", value="WolfBane#5559" inline=False)
+    embed.add_field(name="discord.py" value="", inline=True)
     
     await ctx.send(embed=embed)
     
@@ -29,6 +30,7 @@ async def help(ctx):
     embed = discord.Embed(title="Testing Bot One Help System", description="Hello, this is a list of all of my commands :D", color=0xeee657)
     
     embed.add_field(name="greet", value="This command greets people.", inline=False)
+    embed.add_field(name-"about", value="This command shows information about the bot.", inline=False)
     
     await ctx.send(embed=embed)
 
