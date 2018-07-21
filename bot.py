@@ -31,7 +31,7 @@ async def help(ctx):
     embed = discord.Embed(title="Testing Bot One Help System", description="Hello, this is a list of all of my commands :D", color=0xeee657)
     
     embed.add_field(name="greet", value="This command greets people.", inline=False)
-    embed.add_field(name-"about", value="This command shows information about the bot.", inline=False)
+    embed.add_field(name="about", value="This command shows information about the bot.", inline=False)
     
     await ctx.send(embed=embed)
 
