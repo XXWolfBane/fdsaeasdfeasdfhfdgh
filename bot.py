@@ -46,7 +46,7 @@ async def help(ctx):
     embed.add_field(name="greet", value="This command greets people.", inline=False)
     embed.add_field(name="about", value="This command shows information about the bot.", inline=False)
     embed.add_field(name="updates", value="This command shows the bot's update logs.", inline=False)
-    embed.add_field(name="kick", value="This command removes someone from your server." inline=False)
+    embed.add_field(name="kick", value="This command removes someone from your server.", inline=False)
     
     await ctx.send(embed=embed)
 
