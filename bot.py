@@ -36,11 +36,9 @@ async def watmyroles(ctx):
    await ctx.send(discord.Member.roles)
     
 @bot.command()
-async def crash(ctx):
-    grfjoigjadfriughjdfrog
-    rg
-    aerrgkpireaajgpiadfsjgpaergjpdriajgopiaerdjg
-    
+async def die(ctx):
+    await ctx.send("Bye-Bye")
+    bot.Close
 
     
 bot.remove_command('help')
