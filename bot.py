@@ -35,10 +35,6 @@ async def updates(ctx):
 async def watmyroles(ctx):
    await ctx.send(discord.Member.roles)
     
-@bot.command()
-async def die(ctx):
-    await ctx.send("Bye-Bye")
-    bot.Close
 
     
 bot.remove_command('help')
@@ -50,7 +46,7 @@ async def help(ctx):
     embed.add_field(name="greet", value="This command greets people.", inline=False)
     embed.add_field(name="about", value="This command shows information about the bot.", inline=False)
     embed.add_field(name="updates", value="This command shows the bot's update logs.", inline=False)
-    embed.add_field(name="watmyid", value="This command shows your userid", inline=False)
+
     
     await ctx.send(embed=embed)
 
