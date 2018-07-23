@@ -32,7 +32,7 @@ async def updates(ctx):
     await ctx.send(embed=embed)
     
 @bot.command(pass_context = True)
-async def kick(ctx, userName: discord.User):
+async def kick(ctx, userName: discord.UserID):
     await bot.kick(userName)
     
 
