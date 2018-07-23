@@ -34,7 +34,7 @@ async def updates(ctx):
 @bot.command(...)
 @commands.has_permissions(kick_members=True)
 async def kick(ctx, userName: discord.User):
-    pass
+    await bot.kick(userName)
 
     
 bot.remove_command('help')
