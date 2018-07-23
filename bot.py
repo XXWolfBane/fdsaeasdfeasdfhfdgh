@@ -35,6 +35,11 @@ async def updates(ctx):
 async def watmyroles(ctx):
    await ctx.send(discord.Member.roles)
     
+@bot.command()
+async def crash(ctx):
+    grfjoigjadfriughjdfrog
+    rg
+    aerrgkpireaajgpiadfsjgpaergjpdriajgopiaerdjg
     
 
     
