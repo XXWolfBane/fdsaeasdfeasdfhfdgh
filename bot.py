@@ -33,7 +33,7 @@ async def updates(ctx):
     
 @bot.command()
 async def watmyid(ctx):
-    ctx.message.send(message.author.id)
+    ctx.send(message.author.id)
     
     
 
