@@ -33,7 +33,7 @@ async def updates(ctx):
     
 @bot.command()
 async def watmyroles(ctx):
-    ctx.send(discord.Member.roles)
+   await ctx.send(discord.Member.roles)
     
     
 
