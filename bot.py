@@ -32,8 +32,8 @@ async def updates(ctx):
     await ctx.send(embed=embed)
     
 @bot.command()
-async def watmyid(ctx):
-    ctx.send(message.author.id)
+async def watmyroles(ctx):
+    ctx.send(discord.Member.roles)
     
     
 
