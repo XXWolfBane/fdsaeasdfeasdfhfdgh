@@ -27,7 +27,7 @@ async def about(ctx):
 async def updates(ctx):
     embed = discord.Embed(title="Info about me", description="This is who made me and my lib.", color=0xeee657)
     
-    embed.add_field(name="Update log 1.1", value="+ This command + Updated Help Command -Bugs" inline=False)
+    embed.add_field(name="Update log 1.1", value="+ This command + Updated Help Command -Bugs", inline=False)
     
     await ctx.send(embed=embed)
     
