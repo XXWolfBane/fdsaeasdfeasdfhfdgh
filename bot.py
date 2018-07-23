@@ -22,6 +22,15 @@ async def about(ctx):
     embed.add_field(name="Lib", value="Discord.py", inline=False)
     
     await ctx.send(embed=embed)
+    
+@bot.command()
+async def updates(ctx):
+    embed = discord.Embed(title="Info about me", description="This is who made me and my lib.", color=0xeee657)
+    
+    embed.add_field(name="Update log 1.1", value="+ This command + Updated Help Command -Bugs" inline=False)
+    
+    await ctx.send(embed=embed)
+    
 
     
 bot.remove_command('help')
@@ -32,6 +41,7 @@ async def help(ctx):
     
     embed.add_field(name="greet", value="This command greets people.", inline=False)
     embed.add_field(name="about", value="This command shows information about the bot.", inline=False)
+    embed.add_field(name="update", value="This command shows the bot's update logs.", inline=False)
     
     await ctx.send(embed=embed)
 
