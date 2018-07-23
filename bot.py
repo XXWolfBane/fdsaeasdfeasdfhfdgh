@@ -25,7 +25,7 @@ async def about(ctx):
     
 @bot.command()
 async def updates(ctx):
-    embed = discord.Embed(title="Info about me", description="This is who made me and my lib.", color=0xeee657)
+    embed = discord.Embed(title="Update Logs", description="My most recent update!", color=0xeee657)
     
     embed.add_field(name="Update log 1.1", value="+ This command + Updated Help Command -Bugs", inline=False)
     
