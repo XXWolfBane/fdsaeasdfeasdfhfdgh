@@ -32,8 +32,8 @@ async def updates(ctx):
     await ctx.send(embed=embed)
     
 @bot.command()
-async def watmyroles(ctx):
-   await ctx.send(discord.Member.roles)
+async def begonethot(ctx)
+    await server.get_member(bot.kick)
     
 
     
