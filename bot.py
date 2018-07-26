@@ -31,10 +31,9 @@ async def updates(ctx):
     
     await ctx.send(embed=embed)
     
-@bot.command(...)
-@commands.has_permissions(kick_members=True)
-async def kick(ctx, userName: discord.User):
-    await bot.kick(userName)
+@bot.command()
+async def sis(ctx)
+    ctx.send("'@ANonYmOUS#6155 is the bestest sister' -Austin 2018")
 
     
 bot.remove_command('help')
