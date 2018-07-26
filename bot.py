@@ -32,7 +32,7 @@ async def updates(ctx):
     await ctx.send(embed=embed)
     
 @bot.command()
-async def sis(ctx)
+async def sis(ctx):
     ctx.send("'@ANonYmOUS#6155 is the bestest sister' -Austin 2018")
 
     
