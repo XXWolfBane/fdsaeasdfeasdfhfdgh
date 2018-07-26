@@ -33,7 +33,7 @@ async def updates(ctx):
     
 @bot.command()
 async def sis(ctx):
-    await ctx.send("'@ANonYmOUS#6155 is the bestest sister' -Austin 2018")
+    await ctx.send("' @ANonYmOUS#6155 is the bestest sister ' -Austin 2018")
 
     
 bot.remove_command('help')
